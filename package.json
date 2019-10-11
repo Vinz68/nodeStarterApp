@@ -1,0 +1,39 @@
+{
+  "name": "nodeStarterApp",
+  "version": "0.1.0",
+  "description": "Simple NodeJS starter app which includes logging (bunyan), REST-API and more..",
+  "main": "nodeStarterApp.js",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "bunyan": "^1.8.12",
+    "express": "^4.17.1",
+    "request": "^2.88.0",
+    "uuid-v4": "^0.1.0"
+  },
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-env": "^0.4.0",
+    "gulp-mocha": "^7.0.2",
+    "gulp-nodemon": "^2.4.2",
+    "gulp-uglify": "^3.0.2",
+    "should": "^13.2.3",
+    "sinon": "^7.5.0",
+    "supertest": "^4.0.2"
+  },
+  "scripts": {
+    "start": "node nodeStarterApp.js",
+    "test": "gulp test",
+    "uglify": "gulp compress"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Vinz68/nodeStarterApp.git"
+  },
+  "keywords": [],
+  "author": "Vincent van Beek",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Vinz68/nodeStarterApp/issues"
+  },
+  "homepage": "https://github.com/Vinz68/nodeStarterApp#ReadMe"
+}
