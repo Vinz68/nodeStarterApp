@@ -11,7 +11,7 @@ Best practises requirements, we want:
 - **open source**,
   - the choosen modules/tools/solutions need to be free (as in no costs) and have support of an active community.
 - **HTML5, css3**,
-  - the app serves as a webserver with a near-empty HTML-5 page, based on the HTML5 Boilerplate (https://html5boilerplate.com/)
+  - the app serves as a webserver with a near-empty HTML-5 page, based on the HTML5 Boilerplate (https://html5boilerplate.com/) v7.3.0
 - **logging**, 
   - with "context" like module/function, date/time stamp, log levels (debug info,warn, error as minimum)
   - support of configurable output (flat file, roling file, syslog, ..)

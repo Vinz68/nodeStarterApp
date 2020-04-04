@@ -107,3 +107,6 @@ public
 # User stuff
 backup/
 temp/
+logs/*.log
+
+
