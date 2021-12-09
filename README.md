@@ -66,10 +66,11 @@ git clone https://github.com/[your-account-name-here]/nodeStarterApp.git
 
 3. install node and npm when needed.   ( find [here](https://github.com/nodesource/distributions) how to install node)
    
-   test first if you have node already installed. Let it show its version number
+   test first if you have node and npm already installed. Let it show its version number
 
 ```
 node --version
+npm --version
 ```
 
 

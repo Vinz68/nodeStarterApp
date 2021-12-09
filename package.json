@@ -5,20 +5,24 @@
   "main": "nodeStarterApp.js",
   "dependencies": {
     "body-parser": "^1.19.0",
-    "bunyan": "^1.8.12",
+    "bunyan": "^1.8.15",
+    "chokidar": "^3.5.2",
     "express": "^4.17.1",
+    "glob-parent": "^6.0.2",
+    "glob-watcher": "^5.0.5",
     "request": "^2.88.2",
-    "uuid-v4": "^0.1.0"
+    "uuid-v4": "^0.1.0",
+    "vinyl-fs": "^3.0.3"
   },
   "devDependencies": {
     "gulp": "^4.0.2",
     "gulp-env": "^0.4.0",
-    "gulp-mocha": "^7.0.2",
+    "gulp-mocha": "^8.0.0",
     "gulp-nodemon": "^2.5.0",
     "gulp-uglify": "^3.0.2",
     "should": "^13.2.3",
-    "sinon": "^9.0.1",
-    "supertest": "^4.0.2"
+    "sinon": "^12.0.1",
+    "supertest": "^6.1.6"
   },
   "scripts": {
     "start": "node nodeStarterApp.js",
