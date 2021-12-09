@@ -259,5 +259,13 @@ textarea {
   h3 {
     page-break-after: avoid;
   }
+
+  /* From here our on CSS */
+
+  body {
+      padding-top: 50px;
+      padding-bottom: 20px;
+  }
+
 }
 
